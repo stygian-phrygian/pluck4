@@ -20,7 +20,7 @@ gireverbdry       init 1.00 - gireverbwet
 instr Pluck
                   ; receive midi input data
 icps              cpsmidi
-icpsoctave        init icps * 0.5
+icpsoctave        init icps * 2
 iamp              ampmidi 0dbfs
                   ; create amplitude envelope
 kenv              mxadsr  0.01, .1, .9, 4.5
